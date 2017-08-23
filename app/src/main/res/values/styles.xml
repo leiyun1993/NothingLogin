@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarSize">48dp</item>
+    </style>
+
+    <style name="tab_lab" parent="TextAppearance.AppCompat">
+        <!-- 默认状态提示颜色和字体-->
+        <item name="android:textColorHint">#8c8c8c</item>
+        <item name="android:textSize">12sp</item>
+        <!-- 下面可以根据需要设置，如果没有将默认使用默认theme的颜色 -->
+        <!-- Label标签的颜色 -->
+        <item name="colorAccent">#c6174e</item>
+        <!-- 默认状态状态设置底线颜色 -->
+        <item name="colorControlNormal">#999999</item>
+        <!-- 选择的底线颜色 -->
+        <item name="colorControlActivated">#666666</item>
+    </style>
+
+</resources>
