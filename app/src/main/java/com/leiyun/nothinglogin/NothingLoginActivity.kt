@@ -88,9 +88,9 @@ class NothingLoginActivity : AppCompatActivity() {
                         Log.d("ACTION_DOWN", "x:$lastX,y:$lastY")
                     }
                     MotionEvent.ACTION_UP -> {
-                        if (Math.abs(event.x - lastX) < 30 && event.y - lastY > 30) {
+                        if (Math.abs(event.x - lastX) < 30 && event.y - lastY > 30) {       //向下滑动逻辑，
                             if (isShowing)
-                                showOrHide(false)
+                                showOrHide(false)           //关闭登录或注册
                         }
                         Log.d("ACTION_UP", "x:${event.x},y:${event.y}")
                     }
